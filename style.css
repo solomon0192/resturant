@@ -1,0 +1,992 @@
+*{
+    box-sizing: border-box;
+     margin: 0%;
+    padding: 0%;
+}
+
+/* .cl{
+    display: flex;
+    margin-left: 500px;
+    justify-content: space-between;
+    margin-right: 20px;
+} */
+
+.h1{
+    font-size: xx-large;
+    font-weight: 1000;
+    font-family: Arial;
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+
+/* #ham-bug{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+    margin-top: 5px;
+    transition: 0.4s;
+
+} */
+
+
+.navbar{
+    text-align: center;
+    background-color: orange;
+    margin: 0%;
+    padding: 0%;
+}
+
+#ul{
+  display: flex;
+
+margin-left: 200px;
+}
+li{
+    list-style: none;
+   margin-right: 0px;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: Arial;
+    margin-top: 7px;
+    margin-left: 20px;
+    
+}
+
+#uul{
+    display: flex;
+    
+
+    
+    
+}
+
+.btn{
+    margin-left: 20px;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+    border: 2px solid;
+    background-color: orange ;
+    font-size: 15px;
+    font-weight: 700;
+
+    
+}.btn:hover{
+    color: orange;
+    background-color: black;
+}
+
+
+
+
+
+
+
+.body{
+   
+    background-image: url(./vvv_files/meals-1.584d211eadace77e2de4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.body::after{
+    content: '';
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+
+}
+
+
+
+
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1700;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding-top: 270px;
+    margin: 0%;
+}
+
+.p1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1900;
+    font-size: 17px;
+    padding-top: 0%;
+    margin: 0%;
+}
+
+.btnn{
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    border: 2px orange solid;
+    color: orange;
+    font-size: 15px;
+    font-weight: 700;
+   margin-left: 650px;
+   background: none;
+   margin-bottom: 30px;
+}
+
+.btnn:hover{
+    color: orange;
+    background-color: black;
+}
+
+.prt2{
+    background-color: orange;
+    height: 3100px;
+   
+    
+}
+
+.meals{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.ml{
+    height: 350px;
+    width: 500px;
+}
+
+.mls{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+}
+
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;text-align: center;
+    line-height: 20px;
+}
+
+.h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;text-align: center;
+}
+
+.btnnn{
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    border: 2px black solid;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+   margin-left: 150px;
+   background: none;
+   
+}
+
+.btnn:hover{
+    color: orange;
+    background-color: black;
+}
+
+.h33{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+
+ 
+ 
+.mlp{
+    line-height: 30px;
+    /* margin-bottom: 50px; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:550;
+}
+
+.mlimage{
+    height: 540px;
+    width: 700px;
+    /* position: absolute; */
+}
+
+.btnnnn{
+    height: 40px;
+    width: 200px;
+    margin-left: 25px;
+    border: 2px black solid;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   background: none;
+}
+
+.btnnn:hover{
+    color: orange;
+    background-color: black;
+}
+
+.btnnnn:hover{
+    color: orange;
+    background-color: black;
+}
+
+
+.kk{
+    /* background-color: burlywood;
+    height: 550px;
+    width: 700px; */
+}
+
+
+.menu{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    justify-content: space-around;
+    
+}
+
+.cmenu{
+    margin-left: 50px;
+}
+
+
+
+.l3332{
+    height: 540px; 
+    width: 700px;
+}
+
+
+.menu2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.cmenu2{
+
+}
+
+.h332{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.p332{
+
+}
+
+.btnnnn2{
+    height: 40px;
+    width: 250px;
+    margin-left: 25px;
+    border: 2px black solid;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 20px;
+   background: none;
+   text-transform: uppercase;
+}
+
+.btnnnn2:hover{
+    color: orange;
+    background-color: black;
+}
+
+
+
+.prt3{
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.h4{
+    /* font-weight: 1500; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.p4{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 40px;
+}
+
+.mes{
+    margin: 30px;
+    text-align: center;
+    /* align-content: center; */
+}
+
+
+.mesbody{
+    margin: 45px;
+}
+
+.mesinp{
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.mesinp{
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+}
+
+.mesinp1{
+    font-size: large;
+    background-color: black;
+    text-align: center;
+    height: 90px;
+    border: none;
+    width: 400px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.mesinp2{
+    background-color: orange;
+    text-align: center;
+    color: black;
+    font-size: large;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.mesinp2:hover{
+    background-color: black;
+    color: orange;
+}
+
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 221px;
+}
+
+h5{
+    color: orange;
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lil{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 80px;
+    font-weight: 800;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.lstbtn{
+    height: 40px;
+    width: 150px;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 30px;
+    border: 3px orange solid;
+    color: orange;
+    font-size: 15px;
+    font-weight: 700;
+   
+   background: none;
+   
+}
+
+.lstbtn:hover{
+    color: black;
+    background-color: orange;
+}
+
+.ull{
+    display: flex;
+}
+
+.lu{
+    display: flex;
+}
+
+h6{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .h1{
+        font-size: large;
+        font-weight: 1000;
+        font-family: Arial;
+        margin-bottom: 20px;
+        padding-top: 12px;
+        margin-left: 0%;
+
+    }
+    .hmm{
+        
+    }
+
+    
+    
+
+    #uul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    li{
+        text-align: left;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    
+        
+        
+        
+    .navbar{
+     
+        background-color: orange;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    #ul{
+      
+
+display: flex;
+flex-direction: column;      
+    
+    
+    }
+    
+    .btn{
+        margin-left: 200px;
+        height: 30px;
+        width: 100px;
+        margin-bottom: 20px;
+        margin-top: 2%;
+        border: 2px solid;
+        background-color: orange ;
+        font-size: 12px;
+        font-weight: 600;
+    
+        
+    }.btn:hover{
+        color: orange;
+        background-color: black;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .body{
+       
+        background-image: url(./vvv_files/meals-1.584d211eadace77e2de4.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 5;
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    .body::after{
+        content: '';
+        background-color: black;
+        opacity: .5;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        z-index: -1;
+    
+    }
+    
+    
+    
+    
+    
+    
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 1700;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding-top: 270px;
+        margin: 0%;
+    }
+    
+    .p1{
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 1900;
+        font-size: 12px;
+        padding-top: 0%;
+        margin: 0%;
+    }
+    
+    .btnn{
+        height: 40px;
+        width: 150px;
+        margin-top: 30px;
+        border: 2px orange solid;
+        color: orange;
+        font-size: 12px;
+        font-weight: 500;
+       margin-left: 150px;
+       background: none;
+       margin-bottom: 30px;
+    }
+    
+    .btnn:hover{
+        color: orange;
+        background-color: black;
+    }
+    
+    .prt2{
+        background-color: orange;
+        height: 4000px;
+       
+        
+    }
+    
+    .meals{
+        font-size: 30px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    .ml{
+        height: 300px;
+        padding-bottom: 30px;
+        width: 400px;
+        margin-left: 20px;
+    }
+    
+    .mls{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-around;
+        padding-bottom: 200px;
+    }
+    
+    .p3g{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;text-align: center;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;text-align: center;
+    }
+    
+    .btnnn{
+        height: 40px;
+        width: 200px;
+        margin-top: 10px;
+        border: 2px black solid;
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+       margin-left: 100px;
+       background: none;
+       
+    }
+    
+    .btnn:hover{
+        color: orange;
+        background-color: black;
+    }
+    
+    .h33{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+    }
+    
+    
+     
+     
+    .mlp{
+        line-height: 30px;
+        /* margin-bottom: 50px; */
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:550;
+    }
+    
+    .mlimage{
+        height: 400px;
+        width: 400px;
+        margin-left: 50px;
+        /* position: absolute; */
+    }
+    
+    .btnnnn{
+        height: 40px;
+        width: 200px;
+        margin-left: 98px;
+        border: 2px black solid;
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       background: none;
+    }
+    
+    .btnnn:hover{
+        color: orange;
+        background-color: black;
+    }
+    
+    .btnnnn:hover{
+        color: orange;
+        background-color: black;
+    }
+    
+    
+    .kk{
+        /* background-color: burlywood;
+        height: 550px;
+        width: 700px; */
+    }
+    
+    
+    .menu{
+        display: flex;
+        margin-bottom: 150px;
+        margin-top: 50px;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+    
+    .cmenu{
+        margin-left: 50px;
+    }
+    
+    
+    
+    .l3332{
+        height: 400px;
+        width: 400px;
+        margin-left: 50px;
+    }
+    
+    
+    .menu2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 200px;
+    }
+    
+    .cmenu2{
+    
+    }
+    
+    .h332{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .p332{
+    
+    }
+    
+    .btnnnn2{
+        height: 40px;
+        width: 250px;
+        margin-left: 95px;
+        border: 2px black solid;
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 15px;
+        margin-bottom: 20px;
+       background: none;
+       text-transform: uppercase;
+    }
+    
+    .btnnnn2:hover{
+        color: orange;
+        background-color: black;
+    }
+    
+    
+    
+    .prt3{
+        align-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .h4{
+        /* font-weight: 1500; */
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+        font-size: 40px;
+        font-weight: 700;
+    
+    }
+    
+    .p4{
+        font-weight: 400;
+        font-size: 25px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif; 
+        margin-bottom: 40px;
+    }
+    
+    .mes{
+        margin: 30px;
+        text-align: center;
+        /* align-content: center; */
+    }
+    
+    
+    .mesbody{
+        margin: 45px;
+    }
+    
+    .mesinp{
+        background-color: black;
+        text-align: center;
+        height: 50px;
+        width: 400px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: large;
+    }
+    
+    .mesinp{
+        background-color: black;
+        text-align: center;
+        height: 50px;
+        width: 400px;
+        color: white;
+        border-radius: 10px;
+        font-size: large;
+        border: none;
+    }
+    
+    .mesinp1{
+        font-size: large;
+        background-color: black;
+        text-align: center;
+        height: 90px;
+        border: none;
+        width: 400px;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    
+    .mesinp2{
+        background-color: orange;
+        text-align: center;
+        color: black;
+        font-size: large;
+        height: 50px;
+        width: 400px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    
+    
+    .mesinp2:hover{
+        background-color: black;
+        color: orange;
+    }
+    
+    
+    .footer{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        height: 250px;
+    }
+    
+    h5{
+        color: orange;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 0px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .lil{
+        color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin: 0%;
+        margin-right: 20px;
+        margin-top: 30px;
+        font-weight: 700;
+        
+    }
+    
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .lstbtn{
+        height: 30px;
+        width: 150px;
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-left: 180px;
+        border: 3px orange solid;
+        color: orange;
+        font-size: 15px;
+        font-weight: 700;
+       
+       background: none;
+       
+    }
+    
+    .lstbtn:hover{
+        color: black;
+        background-color: orange;
+    }
+    
+    .ull{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lu{
+        display: flex;
+    }
+    
+    h6{
+        color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
